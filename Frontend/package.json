@@ -1,0 +1,11 @@
+{
+  "name": "TheGame",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "tba",
+  "description": "Educational project",
+  "dependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1"
+  }
+}
