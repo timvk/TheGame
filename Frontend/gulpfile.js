@@ -1,32 +1,31 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
+var inject = require('gulp-inject');
 
 
-gulp.task('serve', function() {
+gulp.task('watch-css', function() {
+    return gulp.src("./src/styles/*.css")
+        .pipe(gulp.dest("./src/styles"))
+        .pipe(browserSync.stream());
+});
+
+gulp.task('watch-js', function() {
+    browserSync.reload();
+});
+
+gulp.task('inject', function() {
+    return gulp.src('./src/index.html')
+        .pipe(inject(gulp.src(['./src/**/*.js', './src/**/*.css'], {read: false}), {ignorePath: 'src'}))
+        .pipe(gulp.dest('./src'));
+});
+
+gulp.task('serve', ['inject'], function() {
     browserSync.init({
-        server: "./app"
+        server: "./src"
     });
 
-    //gulp.watch("app/scss/*.scss", ['sass']);
-    gulp.watch("app/*.html").on('change', browserSync.reload);
+    gulp.watch("src/app/**/*.js", ['watch-js']);
+    gulp.watch("src/styles/*.css", ['watch-css']);
+    gulp.watch("src/**/*.html").on('change', browserSync.reload);
 });
 
-/* 
-gulp.task('webserver', function() {
-  gulp.src('app')
-    .pipe(webserver({
-      livereload: {
-        enable: true, 
-        filter: function(fileName) {
-          if (fileName.match(/.map$/)) { 
-            return false;
-          } else {
-            return true;
-          }
-        }
-      },
-      directoryListing: false,
-      open: true
-    }));
-});
-*/
