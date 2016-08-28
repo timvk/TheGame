@@ -1,0 +1,60 @@
+﻿Simple Armor, 5, 5, 4, , Mail, Chest, Basic
+Specialties: Critical 1
+Simple Armguards, 4, 2, 4, , Mail, Arms, Basic
+Specialties: Critical 1
+Simple Helmet, 2, 4, 4, , Mail, Head, Basic
+Specialties: Leech 1
+Simple Pants, 4, 4, 2, , Mail, Legs, Basic
+Specialties: 
+Simple Boots, 3, 3, 2, , Mail, Feet, Basic
+Specialties: Move Distance 200
+Bandit Chestguard, 6, 4, 2, , Leather, Chest, Basic
+Specialties: Critical 1
+Bandit Gloves, 5, 1, 2, , Leather, Arms, Basic
+Specialties: Leech 1
+Bandit Headguard, 3, 3, 2, , Leather, Head, Basic
+Specialties: Multihit 1
+Bandit Loincloth, 5, 3, 1, , Leather, Legs, Basic
+Specialties: Multihit 1
+Bandit Boots, 4, 2, 1, , Leather, Feet, Basic
+Specialties: Move Distance 200
+Student's Robe, 2, 2, 6, , Cloth, Chest, Basic
+Specialties: Critical 1
+Student's Gloves, 3, 2, 5, , Cloth, Arms, Basic
+Specialties: Critical 1
+Student's Hat, 2, 2, 6, , Cloth, Head, Basic
+Specialties: Multihit 1
+Student's Pants, 1, 3, 4, , Cloth, Legs, Basic
+Specialties: Multihit 1
+Student's Slippers, 1, 2, 4, , Cloth, Feet, Basic
+Specialties: Move Distance 200
+Squire's Armor, 6, 6, 4, , Mail, Chest, Fine
+Specialties: Critical 2, Block 1
+Squire's Armguards, 6, 3, 4, , Mail, Arms, Fine
+Specialties: Critical 2, Block 1
+Squire's Helmet, 6, 6, 4, , Mail, Head, Fine
+Specialties: Leech 2, Block 1
+Squire's Pants, 6, 6, 2, , Mail, Legs, Fine
+Specialties: Block 1
+Squire's Boots, 4, 4, 2, , Mail, Feet, Fine
+Specialties: Move Distance 300
+Assassin's Chestguard, 7, 5, 2, , Leather, Chest, Fine
+Specialties: Critical 2
+Assassin's Gloves, 6, 3, 3, , Leather, Arms, Fine
+Specialties: Leech 2
+Assassin's Headguard, 4, 5, 3, , Leather, Head, Fine
+Specialties: Multihit 1, Critical 1
+Assassin's Loincloth, 7, 4, 1, , Leather, Legs, Fine
+Specialties: Multihit 2
+Assassin's Boots, 5, 2, 2, , Leather, Feet, Fine
+Specialties: Move Distance 300
+Cultist's Robe, 2, 3, 8, , Cloth, Chest, Fine
+Specialties: Critical 2
+Cultist's Gloves, 3, 3, 6, , Cloth, Arms, Fine
+Specialties: Critical 2
+Cultist's Hat, 2, 3, 8, , Cloth, Head, Fine
+Specialties: Multihit 2
+Cultist's Pants, 1, 4, 5, , Cloth, Legs, Fine
+Specialties: Multihit 1, Critical 1
+Cultist's Slippers, 1, 4, 6, , Cloth, Feet, Fine
+Specialties: Move Distance 300

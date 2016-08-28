@@ -1,9 +1,8 @@
 ﻿using Microsoft.Owin.Security.OAuth;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
-using System.Text;
+
 namespace TheGame.Api.AuthProvider
 {
     using System.Threading.Tasks;
