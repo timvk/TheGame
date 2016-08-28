@@ -1,8 +1,17 @@
-<h1 class="h1">{{login.hello}}</h1>
+<!--<h1 class="h1">{{login.hello}}</h1>-->
 
-<div>asdasdasd</div>
-<div>asdasdasd</div>
-<div>asdasdasd</div>
-<div>asdasdasd</div>
-<div>asdasdasd</div>
-<div>asdasdasd</div>
+<form name="loginForm">
+    <fieldset>
+        <label for="username">username: </label>
+        <input type="text" id="username" required="required" ng-model="user.username">
+
+        <label for="password">password: </label>
+        <input type="text" id="password" required="required" ng-model="user.password">
+
+        <button 
+        ng-class="loginForm.$invalid ? 'disabled-button' : ''" 
+        ng-disabled="loginForm.$invalid"
+        ng-click="login.login(user)"> login
+        </button>
+    </fieldset>
+</form>

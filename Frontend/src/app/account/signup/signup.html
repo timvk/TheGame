@@ -1,10 +1,20 @@
-<h1> {{ signup.message }}</h1>
+<!--<h1> {{ signup.message }}</h1>-->
 
+<form name="registerForm">
+    <fieldset>
+        <label for="username">username: </label>
+        <input type="text" id="username" required="required" ng-model="user.username">
 
-<div>asdasd</div>
-<div>asdasd</div>
-<div>asdasd</div>
-<div>aasdadssdasd</div>
-<div>aasdadssdasd</div>
-<div>aasdadssdasd</div>
-<div>aasdadssdasd</div>
+        <label for="password">password: </label>
+        <input type="text" id="password" required="required" ng-model="user.password">
+
+        <label for="confirmPassword">confirm password: </label>
+        <input type="text" id="confirmPassword" required="required" ng-model="user.confirmPassword">
+
+        <button 
+        ng-class="registerForm.$invalid ? 'disabled-button' : ''" 
+        ng-disabled="registerForm.$invalid || user.password != user.confirmPassword"
+        ng-click="signup.register(user)"> Register
+        </button>
+    </fieldset>
+</form>
