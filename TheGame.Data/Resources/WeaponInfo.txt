@@ -1,0 +1,21 @@
+﻿Training Sword, 4, 0, You're getting there, Sword, Basic
+Specialties: Stun 1
+Well-Crafted Sword, 8, 0, Seems used, Sword, Fine
+Specialties: Critical 1, Multihit 1
+Rock on a Stick, 5, 0, Gets the job done, Hammer, Basic
+Specialties: Stun 1, Critical 1
+Smith's Hammer, 7, 0, The initials J.D. are engraved on the handle, Hammer, Fine
+Specialties: Stun 2
+Letter-Opener, 5, 0, Carefully Sharpened, Dagger, Basic
+Specialties: Critical 1
+Commando's Knife, 8, 0, There's reddish stain on the handle, Dagger, Fine
+Specialties: Critical 1, Leech 1
+Hallowed Stick, 1, 5, Only good to start campfire, Staff, Basic
+Specialties: Critical 1
+Apprentice's Staff, 2, 7, Sparks sometimes come out of it unwanted, Staff, Fine
+Specialties: Critical 1, Multihit 1
+Butcher's Blade, 3, 0, Good for meat and nothing else, Axe, Basic
+Specialties: Multihit 1
+Honed Axe, 8, 0, Appears to have been used for woodchopping, Axe, Fine
+Specialties: Critical 2
+
