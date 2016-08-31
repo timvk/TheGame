@@ -3,7 +3,7 @@
 
     angular.module('game', ['ui.router'])
         .config(function($stateProvider, $urlRouterProvider) {
-            $urlRouterProvider.otherwise('/');
+            $urlRouterProvider.otherwise('/login');
             $stateProvider
                 .state('login', {
                     url: '/login',

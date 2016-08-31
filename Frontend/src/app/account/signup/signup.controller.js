@@ -7,7 +7,6 @@
             'sessionService',
             function(accountService, sessionService) {
                 var vm = this;
-                //vm.message = 'Signupa sam as';
 
                 vm.register = function(user) {
 
@@ -21,9 +20,13 @@
                                 .then(function(response) {
                                     console.log(response.data);
                                     sessionService.setToken(response.data.access_token);
+                                    vm.message = 'bravo registrira se';
                                 }, function(error) {
                                     console.log(error);
+
                                 });
+                        }, function(error) {
+                            vm.message = 'mi ne uspq da se registirrash';
                         });
                 };
             }]);

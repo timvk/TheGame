@@ -1,16 +1,17 @@
 <!--<h1 class="h1">{{login.hello}}</h1>-->
-<div class="container">
+<div my-notifications message="login.message"></div>
+<div class="container login-reg ">
     <form name="loginForm" class="form-horizontal">
         <div class="form-group">
             <label class="col-sm-3 control-label" for="username">Username: </label>
-            <div class="col-sm-6">
+            <div class="col-sm-7">
                 <input type="text" class="form-control" id="username" required="required" ng-model="user.username">
             </div>
         </div>
 
         <div class="form-group">
             <label class="col-sm-3 control-label" for="password">Password: </label>
-            <div class="col-sm-6">
+            <div class="col-sm-7">
                 <input type="text" class="form-control" id="password" required="required" ng-model="user.password">
             </div>
         </div>
@@ -19,6 +20,10 @@
             ng-click="login.login(user)">
                 Login
             </button>
+
+        </div>
+        <div class="col-sm-7">
+            <h6>New here <a ui-sref="signup">Register</a></h6>
         </div>
     </form>
 </div>
